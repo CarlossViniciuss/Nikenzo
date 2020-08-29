@@ -1,0 +1,775 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin:0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+/**Header**/
+
+header{
+	padding:10px 2% 35px 2%;
+	height: 109px;
+}
+
+header div.logo{
+    float: left;
+}
+
+header nav.desktop{
+    float: right;
+    position: relative;
+    top: 40px;
+}
+
+nav.mobile{
+	margin-top: 40px;
+	float: right;
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+	cursor: pointer;
+	background-image: url(../imagens/list.png);
+	display: none;
+}
+
+nav.mobile ul{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	background-color: white;
+	left: 0;
+	top: 99px;
+	border: 2px solid hsl(225, 34%, 31%);
+	z-index: 999;
+}
+
+nav.mobile li{
+	font-size: 20px;
+	padding: 20px 0px;
+	font-style: italic;
+    font-weight: bold;
+}
+
+nav.mobile li a{
+	text-decoration: none;
+}
+
+header nav.desktop ul{
+	list-style-type: none;
+}
+
+header nav.desktop ul li{
+	font-style: italic;
+    font-weight: bold;
+    float: left;
+    font-size: 20px;
+    padding: 0 30px;
+}
+
+header nav.desktop a{
+    color: black;
+    text-decoration: none;
+}
+
+/****/
+
+/**Banner**/
+
+section.banner{
+	overflow:hidden;
+	width: 100%;
+	height: 580px;
+	background-image: url('../imagens/image-from-rawpixel-id-392237-jpeg.jpg');
+	background-size: 100% auto;
+	background-position: 200% 100%;
+	background-repeat: no-repeat;
+}
+
+.text-banner{
+    padding: 100px;
+}
+
+.text-banner-single{
+	font-style: italic;
+    width: 290px;
+    padding: 23px 50px;
+    margin-top: 5px;
+    height: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    background-image: url(../imagens/—Pngtree—text\ box_528467.png);
+    background-size: 100% 100%;
+}
+
+.text-banner .text-banner-single:nth-of-type(2){
+	width: 250px;
+	position: relative;
+	left: 2px;
+}
+
+.text-banner .text-banner-single:nth-of-type(3){
+	width: 200px;
+	position: relative;
+	left: 2px;
+}
+
+.text-banner .text-banner-single:nth-of-type(4){
+	font-size: 19px;
+	color: black;
+	background-image: url(../imagens/kisspng-white-house-plan-business-hotel-amtrak-white-bar-5b259f27de4994.1681362315291922319105.png);
+	margin-top: -8px;
+	width: 305px;
+	height: 77px;
+	position: relative;
+	left: 24px;
+}
+
+/****/
+
+
+/**Novidades**/
+
+.ln1{
+	position: absolute;
+	top: 20px;
+	height: 2px;
+	width: 100%;
+	background-color: black;
+}
+
+.line-titulo{
+	margin: 0 auto;
+	max-width: 1400px;
+	position: relative;
+	text-align: center;
+}
+
+section.novidades{
+	padding: 90px 2%;
+}
+
+.line-titulo h2{
+	padding: 0 20px;
+	position: relative;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 27px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.vitrine{
+	float: left;
+	width: 33.3%;
+}
+
+.vitrine .roupa-img{
+	width: 100%;
+	padding-top: 100%;
+	background-size: 100% 100%;
+	border: 11px solid white;
+}
+
+.vitrine h2{
+	padding-left: 8px;
+	color: black;
+	font-style: italic;
+	font-size: 20px	;
+}
+
+.vitrine p{
+	padding-left: 8px;
+	color: #353535;
+	font-size: 15px;
+	font-style: italic;
+	padding-top: 8px;
+}
+
+.btn1{
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 5px solid #B21E1E;
+	background-color: #EB2D2D;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-style: italic;
+	width: 150px;
+}
+
+.vitrine a{
+	margin-left: 8px;		
+	margin-top: 10px;
+}
+/****/
+
+
+/**Vitrine**/
+section.novidades .container{
+	max-width: 1000px;
+	padding: 40px 0;
+}
+
+
+/****/
+
+/**Serviços**/
+.half1{
+	float: left;
+	text-align: center;
+	width: 50%;
+	padding: 90px 0;
+	background-color: rgb(243, 123, 143);
+	color: white;
+}
+
+.half1-wraper{
+	text-align: left;
+	display: inline-block;
+}
+
+.half1-wraper h2{
+	font-weight: normal;
+	font-style: inherit;
+	font-size: 32px;
+}
+
+.half1-wraper ul{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.half1-wraper li{
+	margin-left: 15px;
+}
+
+.half1-wraper a{
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 40px;
+}
+
+.half2{
+	float: left;
+	text-align: center;
+	width: 50%;
+	padding: 90px 0;
+	background-color: hsl(225, 34%, 31%);
+	color: white;
+}
+
+.half2 h2{
+	font-weight: normal;
+	font-style: inherit;
+	font-size: 32px;
+}
+
+.half2 ul{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.half2 li{
+	margin-left: 15px;
+}
+
+.half2 a{
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 40px;
+}
+/****/
+
+/**Contato**/
+section.contato{
+	padding: 80px 2% 0 2%;
+}
+
+section.contato form{
+	max-width: 600px;
+	margin: 30px auto;
+}
+
+section.contato .input-wraper{
+	float: left;
+	padding: 10px;
+	margin-top: 7px;
+}
+
+section.contato input[type=text]{
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 60px;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+section.contato textarea{
+	font-size: 16px;
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 140px;
+	padding: 8px;
+	resize: none;
+}
+
+section.contato form .input-wraper:nth-of-type(5){
+	text-align: center;
+}
+
+section.contato input[type=submit]{
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 50%;
+}
+/****/
+
+/**footer**/
+footer{
+	padding:40px 2%;
+	background: #252525;
+}
+
+footer nav{
+	float: left;
+}
+
+footer nav ul{
+	list-style-type: none;
+}
+
+footer nav ul li{
+	float: left;
+	font-style: italic;
+	padding:0 35px;
+	font-size: 19px;
+}
+
+footer nav ul a{
+	color: white;
+	text-decoration: none;
+}
+
+footer p{
+	float: right;
+	color: white;
+	font-size: 19px;
+	font-style: italic;
+}
+/****/
+
+/**vendas**/
+section.vendas{
+	min-height: 90%;
+	padding: 90px 0;
+}
+
+.content-vendas{
+	margin-top: 40px;
+}
+
+.sidebar{
+	float: left;
+	width: 30%;
+}
+
+.search1{
+	width: 90%;
+
+}
+
+.search1 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+
+}
+
+.search1 .barra-preco{
+	width: 100%;
+	height: 20px;
+	margin-top: 8px;
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	position: relative;
+
+}
+
+.barra-preco-fill{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30%;
+	height: 20px;
+	border-radius: 20px;
+	background: linear-gradient(to bottom, rgb(255,255,255), rgb(200,200,200));
+}
+
+.pointer-barra{
+	width: 26px;
+	height: 26px;
+	border-radius: 8px;
+	cursor: pointer;
+	background: linear-gradient(to bottom, rgb(255,255,255), rgb(180,180,180));
+	border: 1px solid black;
+	position: absolute;
+	left: calc(30% - 13px);
+	top: -3px;
+}
+
+.valor-pesquisa{
+	margin-top: 8px;
+}
+
+.valor-pesquisa p {
+	color: black;
+	font-size: 15px;
+}
+
+.valor-pesquisa p:nth-of-type(1){
+	float: left;
+}
+
+.valor-pesquisa p:nth-of-type(2){
+	float: right;
+}
+
+.search2{
+	margin-top: 40px;
+}
+
+.search2 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+.form-vendas-wraper{
+	margin-top: 10px;
+}
+
+.form-vendas-wraper input[type=checkbox]{
+	display: none;
+}
+
+.form-vendas-wraper label{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	vertical-align: top;
+	cursor: pointer;
+	position: relative;
+}
+
+.form-vendas-wraper input[type=checkbox]:checked + label > .circle{
+	display: block;
+}
+
+.circle{
+	width: 8px;
+	height: 8px;
+	display: none;
+	border-radius: 4px;
+	background-color: black;
+	position: absolute;
+	left: 6px;
+	top: 6px;
+}
+
+.form-vendas-wraper span{
+	padding: 0 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+/****/
+
+/**Vitrine 2**/
+
+.vitrine-vendas{
+	overflow: hidden;
+	float: left;
+	width: 70%;
+}
+
+.vitrine-vendas .vitrine{
+	margin-top: 20px;
+}
+
+/****/
+
+/**teste**/
+
+section.venda-single{
+	padding:80px 2% 0 2%;
+}
+
+section.venda-single .container{
+	padding:40px 0 0 0;
+	text-align: center;
+	max-width: 1280px;
+}
+
+.info-veiculo{
+	display: inline-block;
+	width: 60%;
+}
+
+.foto-destaque{
+	width: 100%;
+	padding-top:70%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.descricao-veiculo{
+	padding: 60px 20px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: left;
+}
+
+.descricao-veiculo p{
+	font-size: 17px;
+	margin-top:25px;
+	max-width: 200px;
+}
+
+.descricao-veiculo a{
+	margin-top:25px;
+}
+
+.nav-galeria{
+	overflow: hidden;
+	width: 100%;
+}
+
+.nav-galeria-parent{
+	width: 100%;
+	padding: 36px;
+	position: relative;
+}
+
+.arrow-left-nav{
+	cursor: pointer;
+	position: absolute;
+	left: 8px;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	background-image: url('../imagens/arrow-left.png');
+	background-size: 100% 100%;
+	width: 22px;
+	height: 22px;
+}
+
+.arrow-right-nav{
+	cursor: pointer;
+	position: absolute;
+	right: 8px;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	background-image: url('../imagens/arrow-right.png');
+	background-size: 100% 100%;
+	width: 22px;
+	height: 22px;
+}
+
+.info-bread a{
+	text-decoration: none;
+	color: black;
+}
+
+.info-bread span{
+	padding: 0 30px;
+}
+
+.info-bread a:last-child{
+	color: red;
+}
+
+.info-bread{
+	padding: 20px 0;
+	text-align: left;
+}
+
+.nav-galeria-wraper{
+	width: 200%;
+}
+
+.mini-img{
+	cursor: pointer;
+	float: left;
+	border:7px solid white;
+	background-position: center;
+	background-size: cover;
+	padding-top:calc(33.3% * (100 / 200) * 0.6);
+	width:calc(33.3% * (100 / 200));
+}
+/****/
+
+
+@media screen and (max-width:850px){
+	.half1-wraper a{
+		display: block;
+		margin-left: 0;
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+	footer nav{
+		display: none;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer p{
+		float: none;
+	}
+
+	.w50{
+		width: 100%;
+	}
+
+	section.servicos-descricao{
+		flex-direction: column-reverse;
+	}
+
+	.half1,.half2{
+		width: 100%;
+	}
+
+	section.banner{
+		background-size: cover;
+		background-position: 100% center;
+		height: 80vh;
+	}
+
+	nav.desktop
+	{
+		display: none;
+	}
+
+	nav.mobile{
+		display: block;
+	}
+
+	.sidebar{
+		width: 100%;
+		text-align: center;
+	}
+
+	.search1{
+		display: inline-block;
+	}
+
+	.search2{
+		text-align: left;
+		display: inline-block;
+	}
+
+	.vitrine-vendas{
+		float: left;
+		text-align: center;
+		width: 100%;
+	}
+
+	.info-veiculo{
+		padding: 20px 0;
+		width: 100%;
+	}
+
+	.descricao-veiculo{
+		text-align: center;
+		display: inline-block;
+	}
+
+	.descricao-veiculo p{
+		max-width: none;
+	}
+}
+
+
+
+@media screen and (max-width: 580px){
+.text-banner{
+	padding:30px;
+}
+
+.text-banner-single{
+	width: 240px;
+	font-size: 18px;
+}
+
+.text-banner .text-banner-single:nth-of-type(4){
+	width: 310px;
+}
+
+section.novidades .line-titulo h2{
+	font-size: 23px;
+}
+
+.vitrine{
+	display: inline-block;
+	float: none;
+	width: 80%;
+	margin-top: 20px;
+}
+
+section.novidades .container{
+	max-width: 1000px;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.vitrine a{
+	display: inline-block;
+}
+
+}
+
+@media screen and (max-width: 480px){
+	.vitrine{
+		width: 100%;
+	}
+}
